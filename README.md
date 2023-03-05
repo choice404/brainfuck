@@ -1,4 +1,4 @@
-# brainfuck
+# Brainfuck
 Here is a brainfuck interpreter I made using c++ as small challenge since getting into using c++
 
 ## About Brainfuck
@@ -7,11 +7,11 @@ Brainfuck is a Turing Complete esoteric programming language (esolang) designed 
 ## Brainfuck commands
 The commands are + - < > , . [ ]
 
-- + : Increments the cell that the pointer is currently at
-- - : Decrements the cell that the pointer is currently at
-- < : Shifts the pointer to the left by 1
-- > : Shifts the pointer to the right by 1
-- , : Get's a user input and stores it into the cell that the pointer is currently at
-- . : Outputs the value stored in the cell that the pointer is currently at
-- [ : Starts a while loop when the current cell is empty (0), loop what is between the brackets
-- ] : End of the loop
+- \+ : Increments the cell that the pointer is currently at
+- \- : Decrements the cell that the pointer is currently at
+- \< : Shifts the pointer to the left by 1
+- \> : Shifts the pointer to the right by 1
+- \, : Get's a user input and stores it into the cell that the pointer is currently at
+- \. : Outputs the value stored in the cell that the pointer is currently at
+- \[ : Starts a while loop when the current cell is empty (0), loop what is between the brackets
+- \] : End of the loop
