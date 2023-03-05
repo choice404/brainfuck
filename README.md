@@ -1,5 +1,5 @@
 # Brainfuck
-Here is a brainfuck interpreter I made using c++ as small challenge since getting into using c++
+Here is a brainfuck interpreter I made using c++ as small challenge since I just recently started getting into using c++
 
 ## About Brainfuck
 Brainfuck is a Turing Complete esoteric programming language (esolang) designed by Urban Müller in 1993. As an esolang, it has little practical purpose in programming however is a good langauge to challenge programmers to think of their programs in different ways. Brainfuck has an infinitely long tape with cells that can hold values from 0 - 255 however in practice the tape will not be infinitely long and the tape used in this interpretor is 256 cells long. The language consists of 8 characters which are used to manipulate the tape.
